@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../cpp program"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "netflix prject"
+	}
+}

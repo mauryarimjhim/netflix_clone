@@ -1,0 +1,55 @@
+body{
+    background-color: #171616;
+    font-family: Arial, sans-serif;
+}
+#head{
+    margin-left: 75px;
+    
+}
+.login-info{
+    margin-left: 40%;
+    margin-top: 13%;
+    border:2px solid black;
+    height: 295px;
+    width: 290px;
+    background-color:rgb(239, 17, 17);
+    border-radius: 8px;
+}
+.input-details{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-weight:bold;
+    font-size:20px;
+}
+.in{
+    margin-top:2px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    width:200px;
+    height:25px;
+    border-radius:2px;
+    padding:10px;
+    box-sizing:border-box;
+}
+.login{
+    background-color: black;
+    color:white;
+    margin-top: 20px;
+    margin-left:38%;
+    padding:10px 20px;
+    font-weight:bold;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: all 0.3s ease;
+    box-shadow:0 4px 6px rgba(0,0,0,0.1);
+}
+button:hover{
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+  transform: translateY(-2px); /* Lift button slightly */ 
+}
+button:active {
+    background-color: #3e8e41; /* Even darker green on click */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+    transform: translateY(2px); /* Press effect */
+  }
